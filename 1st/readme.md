@@ -62,3 +62,5 @@ dynamic int (256)
 
 5. uint
 음수를 제외한 숫자 1~256(bits)
+
+## 
