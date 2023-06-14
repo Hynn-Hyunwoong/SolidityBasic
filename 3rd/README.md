@@ -7,35 +7,15 @@ function setUserInfo() public
                         Access Modifier
 
 - Function Logic
-
 - Function 함수명(매개변수) 접근제어자 {}
 
 
-1. Storage vs Memory
 
-2. Function
-
-3. Variable
-
-4. AccessModifier
-
-
+- 함수수정자 (pure view) - function 함수명(매개변수) 접근제어자 함수수정자 {}
+1. pure 
+- 함수 내부변수, 매개변수만 사용가능
+2. view 
+- 함수 내부변수, 매개변수, 함수 외부변수 사용가능
+- 단 Contract 상태변수 수정 불가
 
 
-
-
-
-
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```

@@ -17,4 +17,4 @@ describe("", function () {
     console.log("stateValue", await function1.stateValue());
     console.log("stateValue", await function1.localvalue());
   });
-})
+});
